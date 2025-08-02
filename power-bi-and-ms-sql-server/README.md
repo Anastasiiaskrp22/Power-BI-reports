@@ -47,3 +47,4 @@ It demonstrates how Power BI can support data-driven decision-making in a real-w
 
 - 📈 **Visual Dashboard**  
   Interactive visualizations and time series analysis using appropriate chart types
+  ![Dashboard Screenshot](dashboard-overview.png)
