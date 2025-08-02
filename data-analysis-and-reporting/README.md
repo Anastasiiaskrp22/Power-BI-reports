@@ -1,22 +1,46 @@
-# Data Analysis and Reporting (Power BI Project)
+# 📈 Data Analysis and Reporting – Profitability Insights in Power BI
 
-## Description
+## 🎯 Purpose
 
-This project analyzes project-related financial data to uncover profitability insights. The dataset contains project costs, revenues, customer details, time, and location dimensions.
+The goal of this project was to analyze project-related financial data using Power BI, focusing on **profitability**, **cost management**, and **project performance**.
+The final result includes a dynamic report highlighting profitable and non-profitable projects across various business dimensions.
 
-### Key Features
+---
 
-- Data quality checks and cleanup
-- Data modeling with relationships
-- DAX measures:
-  - Total Costs
-  - Profit
-  - Profitability (%)
-- Visual breakdown by:
+## 🛠️ Tech Stack
+
+- **Microsoft Power BI**
+- **Microsoft Excel (source files)**
+- **DAX (Data Analysis Expressions)**
+  
+---
+
+## ✨ Features
+
+- 🧹 **Data Quality Improvement**  
+  Cleaned and prepared datasets before modeling.
+
+- 🔗 **Data Modeling**  
+  Connected multiple tables with defined relationships to build a star schema model.
+
+- 📐 **Custom Measures**  
+  Developed key financial indicators using DAX:
+  - **Total Costs** = Labor Costs + External Costs
+  - **Profit** = Income – Costs
+  - **Profitability (%)** = Profit / Income
+
+- 🧭 **Profitability Analysis Across Dimensions**  
+  Report views filtered by:
   - Project
   - Project Type
-  - Industry
+  - Customer Industry
   - City
-  - Calendar Time
-- Identification of nonprofitable projects
-- One-page custom visual dashboard
+  - Time (Calendar Dimension)
+
+- ❗ **Non-Profitable Projects Detection**  
+  Automatically filters and displays projects where **costs ≥ income**.
+  
+---
+
+### 🔹 Overview Dashboard
+![Dashboard Screenshot](dashboard-overview1.png)
